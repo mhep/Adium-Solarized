@@ -11,9 +11,9 @@ Installing
 ----------
 ```bash
 mkdir -p "$HOME/Downloads/Solarized" &&
-mkdir -p "$HOME/Downloads/Solarized/Solarized.adiumstatusicons" &&
-mkdir -p "$HOME/Downloads/Solarized/Solarized.ListLayout" &&
-mkdir -p "$HOME/Downloads/Solarized/Solarized.ListTheme" &&
+mkdir $HOME/Downloads/Solarized/Solarized.adiumstatusicons &&
+mkdir $HOME/Downloads/Solarized/Solarized.ListLayout &&
+mkdir $HOME/Downloads/Solarized/Solarized.ListTheme &&
 
 git clone https://github.com/montauk/Adium-Solarized.git "$HOME/Downloads/Solarized" &&
 
