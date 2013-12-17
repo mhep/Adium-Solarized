@@ -12,7 +12,7 @@ Installing
 ```bash
 mkdir -p "$HOME/Downloads/Solarized.adiumstatusicons" &&
 mkdir -p "$HOME/Downloads/Solarized.ListLayout" &&
-mkdir -p "$Home/Downloads/Solarized.ListTheme" &&
+mkdir -p "$HOME/Downloads/Solarized.ListTheme" &&
 
 git clone https://github.com/montauk/Adium-Status-Solarized.git/Status "$HOME/Downloads/Solarized.adiumstatusicons" &&
 git clone https://github.com/montauk/Adium-Status-Solarized.git/Layout "$HOME/Downloads/Solarized.ListLayout" &&
