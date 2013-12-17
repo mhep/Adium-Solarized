@@ -5,6 +5,7 @@ Based on the [Solarized](http://ethanschoonover.com/solarized) colour theme, set
 Sidebar and Status Icons. 
 
 ![Screenshot](https://raw.github.com/montauk/Adium-Status-Solarized/master/screenshot.png)
+
 ![Screenshot](https://raw.github.com/montauk/Adium-Status-Solarized/master/screenshot2.png)
 
 Installing
@@ -24,7 +25,9 @@ cp -r Status/* Solarized.ListTheme &&
 rm -r Status &&
 rm -r Layout &&
 rm -r Theme &&
-rm -r README.md
+rm -r README.md &&
+rm -r screenshot.png &&
+rm -r screenshot2.png
 
 
 ```
