@@ -3,7 +3,7 @@ Adium Status Icons Solarized
 
 Based on the [Solarized](http://ethanschoonover.com/solarized) colour theme. 
 
-!(Screenshot)[https://raw.github.com/montauk/Adium-Status-Solarized/master/screenshot.png]
+![Screenshot](https://raw.github.com/montauk/Adium-Status-Solarized/master/screenshot.png)
 
 
 Installing
