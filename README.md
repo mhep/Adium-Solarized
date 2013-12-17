@@ -10,20 +10,21 @@ Sidebar and Status Icons.
 Installing
 ----------
 ```bash
-mkdir -p "$HOME/Downloads/Solarized" &&
-mkdir $HOME/Downloads/Solarized/Solarized.adiumstatusicons &&
-mkdir $HOME/Downloads/Solarized/Solarized.ListLayout &&
-mkdir $HOME/Downloads/Solarized/Solarized.ListTheme &&
-
 git clone https://github.com/montauk/Adium-Solarized.git "$HOME/Downloads/Solarized" &&
+cd ~/Downloads/Solarized &&
 
-cd $HOME/Downloads/Solarized &&
-cp -r ./Status Solarized.adiumstatusicons &&
-cp -r ./Layout Solarized.ListLayout &&
-cp -r ./Theme Solarized.ListTheme &&
+
+mkdir Solarized.adiumstatusicons &&
+mkdir ~/Downloads/Solarized/Solarized.ListLayout &&
+mkdir ~/Downloads/Solarized/Solarized.ListTheme &&
+
+cp -r Status/* Solarized.adiumstatusicons &&
+cp -r Layout/* Solarized.ListLayout &&
+cp -r Status/* Solarized.ListTheme &&
 rm -r Status &&
 rm -r Layout &&
-rm -r Theme 
+rm -r Theme &&
+rm -r README.md
 
 
 ```
