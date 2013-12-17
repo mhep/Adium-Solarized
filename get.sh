@@ -1,15 +1,3 @@
-Adium Solarized
-===============
-
-Based on the [Solarized](http://ethanschoonover.com/solarized) colour theme, settings for the
-Sidebar and Status Icons. 
-
-![Screenshot](https://raw.github.com/montauk/Adium-Status-Solarized/master/screenshot.png)
-
-
-Installing
-----------
-```bash
 mkdir -p "$HOME/Downloads/Solarized" &&
 mkdir -p "$HOME/Downloads/Solarized/Solarized.adiumstatusicons" &&
 mkdir -p "$HOME/Downloads/Solarized/Solarized.ListLayout" &&
@@ -25,6 +13,3 @@ rm -r Status &&
 rm -r Layout &&
 rm -r Theme 
 
-
-```
-Click on the `Solarized.*` files in your download folder to install.
