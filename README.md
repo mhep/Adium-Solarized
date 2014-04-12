@@ -13,21 +13,7 @@ Installing
 Copy and paste the following into your terminal:
 
 ```bash
-git clone https://github.com/montauk/Adium-Solarized.git &&
-
-cd Adium-Solarized &&
-
-mkdir MontaukSolarized.adiumstatusicons &&
-mkdir MontaukSolarized.ListLayout &&
-mkdir MontaukSolarized.ListTheme &&
-
-cp -r Status/* MontaukSolarized.adiumstatusicons &&
-cp -r Layout/* MontaukSolarized.ListLayout &&
-cp -r Theme/* MontaukSolarized.ListTheme &&
-rm -rf Status &&
-rm -rf Layout &&
-rm -rf Theme
-
+git clone https://github.com/montauk/Adium-Solarized.git && cd Adium-Solarized && ./build.sh
 ```
 
 Double-click `Solarized.adiumstatusicons` to install the status icons,
