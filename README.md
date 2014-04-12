@@ -13,24 +13,20 @@ Installing
 Copy and paste the following into your terminal:
 
 ```bash
-git clone https://github.com/montauk/Adium-Solarized.git "$HOME/Downloads/Solarized" &&
-cd ~/Downloads/Solarized &&
+git clone https://github.com/montauk/Adium-Solarized.git &&
 
+cd Adium-Solarized &&
 
-mkdir Solarized.adiumstatusicons &&
-mkdir ~/Downloads/Solarized/Solarized.ListLayout &&
-mkdir ~/Downloads/Solarized/Solarized.ListTheme &&
+mkdir MontaukSolarized.adiumstatusicons &&
+mkdir MontaukSolarized.ListLayout &&
+mkdir MontaukSolarized.ListTheme &&
 
-cp -r Status/* Solarized.adiumstatusicons &&
-cp -r Layout/* Solarized.ListLayout &&
-cp -r Status/* Solarized.ListTheme &&
-rm -r Status &&
-rm -r Layout &&
-rm -r Theme &&
-rm -r README.md &&
-rm -r screenshot.png &&
-rm -r screenshot2.png
-
+cp -r Status/* MontaukSolarized.adiumstatusicons &&
+cp -r Layout/* MontaukSolarized.ListLayout &&
+cp -r Theme/* MontaukSolarized.ListTheme &&
+rm -rf Status &&
+rm -rf Layout &&
+rm -rf Theme
 
 ```
 Click on the files in the `Solarized` folder in your download folder to install.
