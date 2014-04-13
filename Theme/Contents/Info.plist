@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.adiumx.Leopard Sidebar1</string>
+	<string>com.adiumx.Montauk Solarized Light</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
-	<string>Leopard Sidebar1</string>
+	<string>Montauk Solarized Light</string>
 	<key>CFBundlePackageType</key>
 	<string>AdIM</string>
 	<key>XtraBundleVersion</key>
