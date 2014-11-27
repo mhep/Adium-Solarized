@@ -20,6 +20,7 @@ Copy and paste the following into your terminal:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 git clone https://github.com/montauk/Adium-Solarized.git && cd Adium-Solarized && ./build.sh
 ```
 
@@ -31,6 +32,9 @@ For a solarized message style I recommend
 [ezanol's theme](https://github.com/ezanol/Adium-Solarized).
 =======
 git clone https://github.com/montauk/Adium-Solarized.git ~/Downloads/Solarized &&
+=======
+git clone https://github.com/montauk/Adium-Solarized.git "$HOME/Downloads/Solarized" &&
+>>>>>>> parent of 20d43ab... Finishing touches on readme update
 =======
 git clone https://github.com/montauk/Adium-Solarized.git "$HOME/Downloads/Solarized" &&
 >>>>>>> parent of 20d43ab... Finishing touches on readme update
@@ -50,8 +54,13 @@ rm -r Theme &&
 rm -r README.md &&
 rm -r screenshot.png &&
 rm -r screenshot2.png
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> parent of 20d43ab... Finishing touches on readme update
 ```
 Click on the files in the `Solarized` folder in your download folder to install.
 
